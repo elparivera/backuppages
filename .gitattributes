@@ -1,0 +1,17 @@
+# .gitattributes - Bloqueo de exportacion y descarga
+# (c) 2026 @elparivera - Propiedad exclusiva
+
+* text=auto eol=lf
+
+# BLOQUEADO: ningun archivo se puede descargar como ZIP
+* export-ignore
+.gitattributes export-ignore
+.gitignore     export-ignore
+.github/       export-ignore
+CODEOWNERS     export-ignore
+SECURITY.md    export-ignore
+*.md           export-ignore
+
+*.html linguist-language=HTML
+*.css  linguist-language=CSS
+*.js   linguist-language=JavaScript
