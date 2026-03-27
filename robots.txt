@@ -1,0 +1,9 @@
+# robots.txt — generado por MedalloPack GitDeploy Suite v4.0
+User-agent: *
+Allow: /
+
+# Bloquear acceso a backups y archivos internos
+Disallow: /backups/
+Disallow: /.github/
+
+Sitemap: https://elparivera.github.io/backuppages/sitemap.xml
